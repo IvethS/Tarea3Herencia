@@ -44,9 +44,8 @@ void setEdad(int eda){
 //aqui es donde se realiza la herencia si se fijan hacemos la clase perro y de extiende al animal
 //luego se manda a llamar perro y se llaman las variables
 // y se crea la funcion de gua.
-class Perro : public Animal
+class Perro : Animal
 {
-public:
 	Perro(string nombre, int edad)
 	{
 		setNombre(nombre);
